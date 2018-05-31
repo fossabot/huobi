@@ -7,6 +7,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/huobitrade.svg)](https://pypi.org/project/huobitrade/)
 ![build](https://travis-ci.org/hadrianl/huobi.svg?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhadrianl%2Fhuobi.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhadrianl%2Fhuobi?ref=badge_shield)
 
 
 ## Installation
@@ -83,3 +84,6 @@ from huobitrade.handler import DBHandler
 handler = DBHandler()
 hb.register_handler(handler, 'market.ethbtc.kline.1min')
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhadrianl%2Fhuobi.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhadrianl%2Fhuobi?ref=badge_large)
